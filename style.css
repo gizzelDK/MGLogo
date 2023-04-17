@@ -1,0 +1,23 @@
+.lettering{
+    fill: hotpink;
+}
+#door{
+    transform-origin: 127px 85px;
+    animation-name: door-open;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+@keyframes door-open{
+    0% { rotate: 0deg}
+    60% { 
+        translate: -4px 2px;
+        rotate: 90deg;
+    }
+    100% { 
+        translate: -4px 2px;
+        rotate: 90deg;
+    }
+}
